@@ -3,8 +3,10 @@ import { Analytics } from "@vercel/analytics/react"
 
 function App() {
   return (
-    <KashimaLandingPage />, 
-    <Analytics />
+    <>
+      <KashimaLandingPage />
+      <Analytics />
+    </>
   )
 }
 
