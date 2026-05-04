@@ -1,5 +1,6 @@
 import { useState } from 'react';
-import { motion, AnimatePresence } from 'framer-motion'; 
+import { motion, AnimatePresence } from 'framer-motion';
+import { Analytics } from "@vercel/analytics/next" 
 
 // --- IMPORTAÇÃO DAS IMAGENS ---
 import artistPortrait from './assets/perfil.jpeg'; 
