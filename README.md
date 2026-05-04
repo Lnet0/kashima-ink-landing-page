@@ -17,4 +17,4 @@ Tecnologias Utilizadas
 
 #Acesso ao Projeto
 O site está atualmente em produção e pode ser acessado aqui: 
-[*Em construção*]
+[https://kashimaink.vercel.app/]
