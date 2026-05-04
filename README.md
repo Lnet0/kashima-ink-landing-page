@@ -1,16 +1,20 @@
-# React + Vite
+Landing Page Kashima Ink
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Uma landing page profissional e responsiva desenvolvida para uma tatuadora, focada em conversão, exibição de portfólio e prova social.
 
-Currently, two official plugins are available:
+O Projeto
+Este projeto foi construído para estabelecer a presença digital da artista Nicolli Kashima. O site foi projetado para transmitir a identidade visual do estúdio (com foco em Blackwork e FineLine), contando com navegação fluida, galeria de portfólio integrada e links diretos para agendamento via WhatsApp e também instagram.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Tecnologias Utilizadas
+**React**
+**Vite**
+**Tailwind CSS**
+**JavaScript Moderno**
 
-## React Compiler
+#Destaques Técnicos
+* Implementação de scroll suave customizado utilizando `requestAnimationFrame` e cálculos matemáticos de *Easing* (Ease-Out Expo) para uma experiência de usuário premium.
+* Criação de transições de seção estilizadas (fios de ouro com gradiente e selos flutuantes)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+#Acesso ao Projeto
+O site está atualmente em produção e pode ser acessado aqui: 
+[*Em construção*]
