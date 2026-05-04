@@ -16,5 +16,5 @@ Tecnologias Utilizadas
 * Criação de transições de seção estilizadas (fios de ouro com gradiente e selos flutuantes)
 
 #Acesso ao Projeto
-O site está atualmente em produção e pode ser acessado aqui: 
+O site está atualmente em produção e pode ser acessado aqui:  
 [https://kashimaink.vercel.app/]
