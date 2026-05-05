@@ -218,16 +218,15 @@ const HeroSection = () => (
         variants={fadeUp}
         className="md:col-span-7 lg:col-span-6"
       >
-        <span className="block text-amber-500 font-semibold text-lg mb-4 tracking-widest uppercase">
-          Nicolli Kashima • Curitiba-PR
-        </span>
-        <h1 className="font-serif text-5xl md:text-8xl text-white leading-[0.9] tracking-tighter">
-          Eternizando sua <span className="text-red-600">história</span> em arte.
-        </h1>
-        <p className="text-amber-100/60 text-xl mt-10 max-w-xl font-light">
-          Especialista em <span className="text-amber-400">Fineline</span> e <span className="text-amber-400">Blackwork</span>. 
-          Traços finos, precisão técnica e delicadeza em cada detalhe.
-        </p>
+        <span className="block text-amber-500 font-semibold text-lg mb-4 tracking-widest uppercase"> Nicolli Kashima • Curitiba - PR </span>
+        <h1 className="font-serif text-5xl md:text-8xl text-white leading-[1.0] tracking-tighter">
+  Tatuadora em Curitiba com foco em{" "}
+  <span className="text-red-600">Fineline</span> e{" "}
+  <span className="text-red-600">Blackwork</span>
+</h1>
+        <p className="text-amber-100/60 text-2xl mt-10 max-w-xl font-light">
+  Eternizando sua história em arte com traços finos, precisão técnica e delicadeza em cada detalhe.
+</p>
         <motion.div 
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
