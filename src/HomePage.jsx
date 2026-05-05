@@ -5,6 +5,7 @@ import { motion, AnimatePresence } from 'framer-motion';
 import artistPortrait from './assets/perfil.jpeg'; 
 import heroActionImage from './assets/hero.jpeg';
 import whatsappPng from './assets/wpp-icon.png';
+import SEO from './components/SEO';
 
 import t1 from './assets/tattoo1.jpeg';
 import t2 from './assets/tattoo2.jpeg';
@@ -265,16 +266,7 @@ const PortfolioSection = () => {
       {/* 2. O Fio de Ouro */}
       <div className="absolute -top-px left-0 w-full h-px bg-gradient-to-r from-transparent via-amber-500/80 to-transparent z-10"></div>
 
-      {/* --- 3. NOVA ARTE: SELO FLUTUANTE --- */}
-      {/* Usamos -top-6 para ele subir e ficar exatamente no meio da emenda */}
-      <div className="absolute -top-6 left-1/2 -translate-x-1/2 z-20">
-        <div className="w-11 h-11 flex items-center justify-center rounded-full bg-neutral-900 border border-amber-500/60 shadow-[0_0_15px_rgba(245,158,11,0.15)]">
-          {/* Ícone de estrela/brilho estilo Fineline (compatível com Lucide/SVGs padrão) */}
-          <svg className="text-amber-500 w-5 h-5" fill="none" stroke="currentColor" strokeWidth="1.5" viewBox="0 0 24 24">
-            <path strokeLinecap="round" strokeLinejoin="round" d="M12 3v18m9-9H3m12.728-6.364l-9.192 9.192m0-9.192l9.192 9.192" />
-          </svg>
-        </div>
-      </div>
+      
 
       <div className="max-w-7xl mx-auto px-6 relative z-10">
         
@@ -298,7 +290,8 @@ const PortfolioSection = () => {
               <img 
                 src={img} 
                 alt={`Tattoo ${idx + 1}`} 
-                className="w-full h-auto object-cover transition-transform duration-700 group-hover:scale-105"
+                className="w-full h-auto object-cover transition-transform duration-700 group-hover:scale-105 blur-sm transition-all duration-500"
+                onLoad={(e) => e.target.classList.remove('blur-sm')}
               />
               <div className="absolute inset-0 bg-neutral-900/10 opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none"></div>
             </motion.div>
@@ -455,12 +448,12 @@ const FloatingWhatsapp = () => (
     animate={{ opacity: 1, scale: 1 }}
     whileHover={{ scale: 1.1 }}
     transition={{ delay: 1.5, type: "spring", stiffness: 260, damping: 20 }}
-    className="fixed bottom-6 right-6 z-50 flex items-center justify-center w-16 h-16 text-white rounded-full shadow-2xl group"
+    className="fixed bottom-6 right-6 z-50 flex h-13 w-13 items-center justify-center rounded-full bg-green-500 text-white shadow-lg transition-transform hover:scale-110"
   >
     {/* Pulso Customizado com Delay Maior */}
     <motion.span 
       animate={{ 
-        scale: [1, 1.8], // Começa no tamanho real e expande até 1.8x
+        scale: [1, 1.5], // Começa no tamanho real e expande até 1.8x
         opacity: [0.5, 0] // Começa com 50% de opacidade e some
       }}
       transition={{
@@ -475,7 +468,7 @@ const FloatingWhatsapp = () => (
     <img 
       src={whatsappPng} 
       alt="WhatsApp" 
-      className="w-14 h-14 relative z-10 object-contain"
+      className="w-13 h-13 relative z-10 object-contain"
     />
   </motion.a>
 );
@@ -483,6 +476,7 @@ const FloatingWhatsapp = () => (
 export default function KashimaLandingPage() {
   return (
     <div className="bg-neutral-950 min-h-screen">
+      <SEO />
       <Navbar />
       <HeroSection />
       <AboutSection />
