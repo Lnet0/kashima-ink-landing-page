@@ -381,13 +381,13 @@ const AboutSection = () => (
       >
           <h2 className="font-serif text-5xl mb-10">Nicolli <span className="text-amber-500">Kashima</span></h2>
           <p className="text-neutral-400 text-xl mb-10 leading-relaxed">
-              Sou tatuadora há 5 anos e, desde muito nova, sempre fui movida pela paixão pelo desenho. Apesar de ter me formado em aviação, foi na arte que encontrei meu verdadeiro caminho — transformando ideias e sentimentos em traços permanentes na pele.
+              Sou tatuadora em Curitiba há 5 anos e, desde muito nova, sempre fui movida pela paixão pelo desenho. Apesar de ter me formado em aviação, foi na arte que encontrei meu verdadeiro caminho — transformando ideias e sentimentos em traços permanentes na pele.
           </p>
           <p className="text-neutral-400 text-xl mb-10 leading-relaxed">
-              Com 22 anos, trago um estilo marcado pelo amor ao Blackwork e ao FineLine, explorando contrastes, detalhes e composições únicas em cada trabalho. Acredito que cada tatuagem conta uma história, e meu objetivo é traduzir a sua de forma autêntica e personalizada.
+              Com 22 anos, trago um estilo marcado pelo amor ao Blackwork e ao FineLine, explorando contrastes, detalhes e composições únicas em cada trabalho. Meu foco como tatuadora em Curitiba é criar artes personalizadas, delicadas e com alto nível de precisão.
           </p>
           <p className="text-neutral-400 text-xl mb-10 leading-relaxed">
-              Além da arte, sou mãe de dois pets que fazem parte do meu dia a dia e da minha inspiração. Aqui, cada projeto é feito com dedicação, cuidado e muita paixão pelo que faço.
+              Atendo em Curitiba - PR com horário marcado, oferecendo uma experiência confortável, segura e totalmente personalizada para cada cliente.
           </p>
       </motion.div>
       
