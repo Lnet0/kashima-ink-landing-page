@@ -6,6 +6,8 @@ export default function SEO() {
       {/* TÍTULO */}
       <title>Tatuadora em Curitiba | Fineline e Blackwork | Kashima Ink</title>
 
+      <meta name="google-site-verification" content="Y1LOOkfkjQ3xuO8f4oQzWwR2Zebx1w2HJPtwdprc4Uo" />
+
       {/* DESCRIÇÃO */}
       <meta name="description" content="Tatuadora em Curitiba especializada em fineline e blackwork. Tattoos delicadas, personalizadas e com alto nível de detalhe. Agende agora."/>
 
