@@ -31,6 +31,20 @@ import f8 from './assets/feedback8.jpeg';
 import f9 from './assets/feedback9.jpeg';
 
 const tattooPortfolio = [t1, t2, t3, t4, t5, t6, t7, t8, t9, t10, t11, t12];
+
+const generateAlt = (index) => {
+  const base = [
+    "tatuagem fineline em Curitiba",
+    "tatuagem blackwork em Curitiba",
+    "tatuagem delicada feminina em Curitiba",
+    "tattoo minimalista em Curitiba",
+    "tatuagem traço fino em Curitiba",
+    "tatuagem personalizada em Curitiba"
+  ];
+
+  return `${base[index % base.length]} - Kashima Ink`;
+};
+
 const feedbacks = [f2, f3, f4, f5, f6, f7, f8, f9];
 
 const whatsappLink = "https://wa.me/5541988366886?text=Olá%20Nicolli%2C%20vi%20seu%20site%20e%20gostaria%20de%20fazer%20um%20orçamento!";
@@ -317,7 +331,7 @@ const PortfolioSection = () => {
               >
                 <img 
                   src={img} 
-                  alt={`Feedback de cliente ${idx + 1}`} 
+                  alt={generateAlt(idx)} 
                   // w-full garante que ocupe a largura do card, e object-cover garante que não achate
                   className="w-full h-auto rounded-xl object-cover"
                 />
